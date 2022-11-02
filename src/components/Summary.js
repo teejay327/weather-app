@@ -1,8 +1,23 @@
 function Summary () {
-		return (<div className="summary">
-  	 <h2>Location: Gold Coast</h2>
-				<div className="summary__date">Date: 31 October 2022</div>
-  </div>)
-}
+  const summaryDate = new Date(2022, 11, 2);
+  const summaryLocation = 'Location: Gold Coast, QLD';
+  const summaryConcise = 'Mostly sunny, light winds from the North East. Possible evening shower.';
+  const summaryTemperatures = "12 &deg;C to 26 &#176;";
+  return (
+    <div className="summary">
+      <div className="summary__location">
+        <h2>{ summaryLocation }</h2>
+      </div>
+  	  <div className="summary__date">
+        { summaryDate.toISOString() };
+      </div>
+      <div className="summary__concise">
+        { summaryConcise };
+      </div>
+      <div className="summary__temperatures">
+        <h3>{ summaryTemperatures }</h3>
+      </div>
+    </div>)
+} 
 
 export default Summary;
