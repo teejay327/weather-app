@@ -3,8 +3,8 @@
 }
 
 .App-header {
-  background-color: #065e81;
-  min-height: 100vh;
+  background-color: #e5ecef;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;

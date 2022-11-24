@@ -1,7 +1,13 @@
-summary {
-
+.summary {
+  color: #fff;
+  background-color: #065e81;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 70rem;
+  max-width: 95%;
+  height: 40rem;
 }
 
-summary_date {
-
+.summary__location {
+  color: yellow;
 }

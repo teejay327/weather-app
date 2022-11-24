@@ -1,4 +1,5 @@
 import Date from './Date';
+import './Summary.css';
 
 function Summary(props) {
   //const date = props.date.toLocaleString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
