@@ -1,13 +1,19 @@
 .summary {
   color: #fff;
   background-color: #065e81;
+  background-image: linear-gradient(to bottom right, #81bdd5, #1481ac);
+  font-size: 0.7em;
   padding: 1rem;
   margin: 2rem auto;
-  width: 70rem;
+  width: 30rem;
   max-width: 95%;
-  height: 40rem;
+  height: 20rem;
 }
 
 .summary__location {
   color: yellow;
+}
+
+.summary__concise {
+  text-align: left;
 }

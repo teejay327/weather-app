@@ -27,7 +27,7 @@ function App() {
 
   const forecast = {
     location: 'Gold Coast, Queensland',
-    date: new Date(2022, 11, 19),
+    date: new Date(2022, 11, 29),
     concise: 'Mostly sunny, light winds from the North East. Possible evening shower.',
     temperature: '12 to 26 degrees' 
   };
@@ -51,7 +51,12 @@ function App() {
             temperature = { forecast.temperature }
           ></Summary>
       </header>
-
+      <div className="container-top">
+        <h2>top container</h2>
+      </div>
+      <div className="container-bottom">
+        <h2>images container</h2>
+      </div>
     </div>
   );
 }
