@@ -1,15 +1,18 @@
+import { Link } from 'react-router-dom';
+import './NavBar.css';
+
 function NavBar() {
   return <nav className="navbar">
-    <a href="/" className="navbar-title">WeatherLink</a>
+    <Link to="/" className="navbar-title">WeatherLink</Link>
     <ul>
       <li className="navbar-elements">
-        <a href="/locations">Locations</a>
+        <Link to="/locations">Locations</Link>
       </li>
       <li className="navbar-elements">
-        <a href="/charts">Maps</a>
+        <Link to="/charts">Charts</Link>
       </li>
       <li className="navbar-elements">
-        <a href="/search">Search</a>
+        <Link to="/search">Search</Link>
       </li>
     </ul>
   </nav>
