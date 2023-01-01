@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-header {
+.App-container {
   background: linear-gradient(#065e81, #F0FFFF);
   height: auto;
   display: flex;
@@ -20,4 +20,9 @@
 
 .container {
   background-color: #065e81;
+}
+
+.container__forecast {
+  display: flex;
+  flex-direction: row;
 }

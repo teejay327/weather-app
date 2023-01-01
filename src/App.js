@@ -6,30 +6,21 @@ import Charts from './components/Charts';
 import Locations from './components/Locations';
 import { Route, Routes } from 'react-router-dom';
 import './components/NavBar.css';
+import Statistics from './components/Statistics';
 
 function App() {
-  /*
-  let Component;
-  switch (window.location.pathname) {
-    case "/": 
-      Component = Home;
-      break;
-    case "/charts":
-      Component = Charts;
-      break;
-    case "/locations":
-      Component = Locations;
-      break;
-    default:
-      Component = Home;
-  };
-  */
-
   const forecast = {
     location: 'Gold Coast, Queensland',
     date: new Date(2023, 0, 1),
     concise: 'Mostly sunny, light winds from the North East. Possible evening shower.',
     temperature: '12 to 26 degrees' 
+  };
+
+  const stats = { 
+    chanceRain: '20%',
+    rainfall: '<1mm',
+    uvIndex: 'Very high',
+    wind: 'NE 20kmh'
   };
 
   return (
@@ -42,21 +33,30 @@ function App() {
           <Route path="/locations" element={ <Locations /> }  />
         </Routes>
       </div>
-      <header className="App-header">
-          <h1>Weather Forecast</h1>
+      <div className="App-container">
+        <h1>Weather Forecast</h1>
+        <div className="container__forecast">
           <Summary
             location = { forecast.location }
             date = { forecast.date }
             concise = { forecast.concise }
             temperature = { forecast.temperature }
           ></Summary>
-      </header>
-      <div className="container-top">
-        <h2>top container</h2>
+          <h2>Stats</h2>
+          <Statistics
+            chance = { stats.chanceRain }
+            amount = { stats.rainfall}
+            uv = { stats.uvIndex }
+            wind = { stats.wind }
+          ></Statistics>
+        </div>
+        <div className="container__charts">
+          <h2>images container</h2>
+        </div>
       </div>
-      <div className="container-bottom">
-        <h2>images container</h2>
-      </div>
+
+      
+
     </div>
   );
 }
