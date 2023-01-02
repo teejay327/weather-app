@@ -1,3 +1,19 @@
 .statistics {
-  
+  color: #fff;
+  background-color: #065e81;
+  background-image: linear-gradient(to bottom right, #81bdd5, #1481ac);
+  font-size: 0.7em;
+  padding: 1rem;
+  margin: 1rem 0.5rem;
+  width: 30rem;
+  max-width: 95%;
+  height: 20rem;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 4rem;
+}
+
+.box {
+  margin: 3px;
+
 }

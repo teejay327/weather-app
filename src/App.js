@@ -42,7 +42,6 @@ function App() {
             concise = { forecast.concise }
             temperature = { forecast.temperature }
           ></Summary>
-          <h2>Stats</h2>
           <Statistics
             chance = { stats.chanceRain }
             amount = { stats.rainfall}
