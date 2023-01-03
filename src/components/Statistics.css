@@ -15,5 +15,5 @@
 
 .box {
   margin: 3px;
-
+  display: grid;
 }
