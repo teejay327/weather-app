@@ -1,11 +1,15 @@
 import './Statistics.css';
+import rainfall from '../assets/Rainfall.png';
+import rainfallGauge from '../assets/RainfallGauge.png';
+import uvIndex from '../assets/UVIndex.png';
+import wind from '../assets/Wind.png';
 
 function Statistics (props) {
   return (
     <div className='statistics'>
       <div className='box'>
         <div className='stats__icon'>
-          Icon1
+          <img src={ rainfall } alt="Rainfall" />
         </div>
         <div className='stats__text'>
           Stats1
@@ -13,7 +17,7 @@ function Statistics (props) {
       </div>
       <div className='box'>
         <div className='stats__icon'>
-        Icon2
+          <img src={ rainfallGauge } alt="Rainfall Gauge" />
         </div>
         <div className='stats__text'>
         Stats2
@@ -21,7 +25,7 @@ function Statistics (props) {
       </div>
       <div className='box'>
         <div className='stats__icon'>
-        Icon3
+          <img src={ uvIndex } alt="UV Index" />
         </div>
         <div className='stats__text'>
         Stats3
@@ -29,7 +33,7 @@ function Statistics (props) {
       </div>
       <div className='box'>
         <div className='stats__icon'>
-        Icon4     
+          <img src={ wind } alt="Wind" />  
         </div>
       <div className='stats__text'>
       Stats4
