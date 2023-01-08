@@ -1,5 +1,15 @@
+import SearchForm from './SearchForm';
+
 function Home() {
-  return <h1>Home</h1>
+  return (
+    <div>
+      <h1>Home</h1>
+      <div className='Search-form'>
+          <SearchForm/>
+        </div> 
+    </div>
+
+  )
 }
 
 export default Home;

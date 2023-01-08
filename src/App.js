@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import './components/NavBar.css';
 import Statistics from './components/Statistics';
 
+
 function App() {
   const forecast = {
     location: 'Gold Coast, Queensland',
@@ -35,6 +36,7 @@ function App() {
       </div>
       <div className="App-container">
         <h1>Weather Forecast</h1>
+
         <div className="container__forecast">
           <Summary
             location = { forecast.location }
