@@ -5,7 +5,7 @@ function SearchForm() {
     <form>
       <input type="text" placeholder="Search for any location" />
       <button type="submit">Submit</button>
-  </form>
+    </form>
   )
 }
 
