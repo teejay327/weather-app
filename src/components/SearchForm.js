@@ -1,10 +1,17 @@
+import React, {useState} from 'react';
 import './SearchForm.css';
 
 function SearchForm() {
   return (
     <form>
-      <input type="text" placeholder="Search for any location" />
-      <button type="submit">Submit</button>
+      <div className='searchform'>
+        <label>Search for any location</label>
+        <input type="text" placeholder="Gold Coast" />
+      
+      <div className='searchform__button'>
+        <button type="submit">Submit</button>
+      </div>
+      </div>
     </form>
   )
 }

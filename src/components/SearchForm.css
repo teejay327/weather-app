@@ -1,0 +1,26 @@
+.searchform {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.3rem;
+  text-align: left;
+}
+
+.searchform label {
+  color: #fff;
+  font-weight: bold;
+
+  padding: 1rem;
+}
+
+.searchform input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.searchform__button {
+  
+}
