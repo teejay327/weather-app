@@ -1,9 +1,10 @@
 .searchform {
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 0.3rem;
   text-align: left;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .searchform label {
