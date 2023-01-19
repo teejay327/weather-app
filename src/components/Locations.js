@@ -1,3 +1,5 @@
+import './Locations.css';
+
 function Locations() {
   return <h1>Locations</h1>
 }
