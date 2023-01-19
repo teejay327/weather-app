@@ -9,7 +9,7 @@ function SearchForm() {
         <input type="text" placeholder="Gold Coast" />
       
       <div className='searchform__button'>
-        <button type="submit">Submit</button>
+        <button type="submit" className='button'>Submit</button>
       </div>
       </div>
     </form>
