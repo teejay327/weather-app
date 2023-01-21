@@ -8,9 +8,8 @@
   width: 30rem;
   max-width: 95%;
   height: 20rem;
-  display: grid;
-  grid-template-columns: 12.5% 37.5% 12.5% 37.5%;
-  grid-template-rows: 4rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box {

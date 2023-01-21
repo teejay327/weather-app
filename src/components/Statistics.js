@@ -8,13 +8,16 @@ import rain from '../assets/rainy-outline.svg';
 function Statistics (props) {
   return (
     <div className='statistics'>
+
+
+      
       <div className='box'>
         <div className='stats__icon'>
           <img src={ rain } alt="Rainfall"/>
           {/* <img src={ rainfall } alt="Rainfall"/> */}
         </div>
         <div className='stats__text'>
-          Stats1
+          Chance of rain
         </div>
       </div>
       <div className='box'>
@@ -34,7 +37,7 @@ function Statistics (props) {
           {/* <img src={ rainfallGauge } alt="Rainfall Gauge" /> */}
         </div>
         <div className='stats__text'>
-        Stats2
+        Amount of rain
         </div>
       </div>
       <div className='box'>
@@ -42,7 +45,7 @@ function Statistics (props) {
           <img src={ uvIndex } alt="UV Index" />
         </div>
         <div className='stats__text'>
-        Stats3
+        UV Index
         </div>
       </div>
       <div className='box'>
@@ -56,7 +59,7 @@ stroke="#FFF" stroke-width="2" stroke-linejoin="round"></path></g>
           <img src={ wind } alt="Wind" />  
         </div>
       <div className='stats__text'>
-      Stats4
+      Wind speed
       </div>
      </div>
 
