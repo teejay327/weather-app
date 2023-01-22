@@ -7,7 +7,8 @@ import Locations from './components/Locations';
 import { Route, Routes } from 'react-router-dom';
 import './components/NavBar.css';
 import Statistics from './components/Statistics';
-
+import satelliteMap from './assets/Satellite_Australia_1.jpg';
+import brisbaneRadar from './assets/Brisbane_radar_1.gif';
 
 function App() {
   const forecast = {
@@ -51,13 +52,17 @@ function App() {
             wind = { stats.wind }
           ></Statistics>
         </div>
-        <div className="container__charts">
-          <h2>images container</h2>
+        <div className="charts">
+          <h3>images container</h3>
+          <div className="container__charts">
+            <img src={ satelliteMap } alt="Satellite map" />
+            
+          </div>
+          <div className="container__charts2">
+            <img src={ brisbaneRadar } alt="Brisbane radar map" />
+          </div>
         </div>
       </div>
-
-      
-
     </div>
   );
 }

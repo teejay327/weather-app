@@ -1,3 +1,4 @@
+import Card from './UI/Card';
 import './Statistics.css';
 //import rainfall from '../assets/Rainfall.png';
 //import rainfallGauge from '../assets/RainfallGauge.png';
@@ -9,8 +10,8 @@ function Statistics (props) {
   return (
     <div className='statistics'>
 
+    <Card></Card>
 
-      
       <div className='box'>
         <div className='stats__icon'>
           <img src={ rain } alt="Rainfall"/>
