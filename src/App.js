@@ -36,8 +36,9 @@ function App() {
         </Routes>
       </div>
       <div className="App-container">
-        <h1>Weather Forecast</h1>
-
+        <div className="container__heading">
+          <h3>Weather Forecast</h3>
+        </div>     
         <div className="container__forecast">
           <Summary
             location = { forecast.location }
@@ -52,16 +53,21 @@ function App() {
             wind = { stats.wind }
           ></Statistics>
         </div>
+
         <div className="charts">
-          <h3>images container</h3>
+          <div className="container__heading">
+            <h3>Images container</h3>
+          </div>      
           <div className="container__charts">
-            <img src={ satelliteMap } alt="Satellite map" />
-            
-          </div>
-          <div className="container__charts2">
-            <img src={ brisbaneRadar } alt="Brisbane radar map" />
+            <div className="radar__charts">
+              <img src={ brisbaneRadar } alt="Brisbane radar map" />
+            </div>
+            <div className="satellite__charts">
+              <img src={ satelliteMap } alt="Satellite map" />              
+            </div>
           </div>
         </div>
+        
       </div>
     </div>
   );

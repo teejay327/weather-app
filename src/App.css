@@ -22,7 +22,21 @@
   background-color: #065e81;
 }
 
+.container__heading {
+
+}
+
 .container__forecast {
+  display: flex;
+  flex-direction: row;
+}
+
+.charts {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__charts {
   display: flex;
   flex-direction: row;
 }

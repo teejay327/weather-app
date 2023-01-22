@@ -10,7 +10,7 @@ function Statistics (props) {
   return (
     <div className='statistics'>
 
-    <Card></Card>
+    <Card>
 
       <div className='box'>
         <div className='stats__icon'>
@@ -21,6 +21,9 @@ function Statistics (props) {
           Chance of rain
         </div>
       </div>
+    </Card>
+
+    <Card>
       <div className='box'>
         <div className='stats__icon'>
 
@@ -41,6 +44,9 @@ function Statistics (props) {
         Amount of rain
         </div>
       </div>
+    </Card>
+
+    <Card>
       <div className='box'>
         <div className='stats__icon'>
           <img src={ uvIndex } alt="UV Index" />
@@ -49,6 +55,9 @@ function Statistics (props) {
         UV Index
         </div>
       </div>
+    </Card>
+
+    <Card>
       <div className='box'>
         <div className='stats__icon'>
 {/*         <svg width="40px" height="40px" viewBox="0 0 46 46">
@@ -59,12 +68,13 @@ stroke="#FFF" stroke-width="2" stroke-linejoin="round"></path></g>
 </svg> */}
           <img src={ wind } alt="Wind" />  
         </div>
-      <div className='stats__text'>
-      Wind speed
+        <div className='stats__text'>
+          Wind speed
+        </div>
       </div>
-     </div>
+     </Card>
 
-    </div>
+    </div>   
   )
 }
 
