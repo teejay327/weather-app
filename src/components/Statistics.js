@@ -11,7 +11,6 @@ function Statistics (props) {
     <div className='statistics'>
 
     <Card>
-
       <div className='box'>
         <div className='stats__icon'>
           <img src={ rain } alt="Rainfall"/>
@@ -31,9 +30,9 @@ function Statistics (props) {
           <g fill="none" fill-rule="evenodd">
             <circle fill="#53B9EA" cx="23" cy="23" r="23"></circle>
             <g transform="translate(15 9)">
-              <rect stroke="#FFF" stroke-width="1.7" x="0.85" y="0.85" width="15.3" height="26.118" rx="1"></rect>
-              <path stroke="#FFF" stroke-width="1.7" stroke-linecap="round" d="M11 11.5h5M11 16.5h5M11 6.5h5"></path>
-              <path d="M16 20.853c-.28.595-1.635.893-4.065.893C8.767 21.746 7.961 20 4.921 20c-1.316 0-2.623.284-3.921.853V27h15v-6.147z" fill="#FFF"></path>
+              <rect stroke="#000000" stroke-width="1.7" x="0.85" y="0.85" width="15.3" height="26.118" rx="1"></rect>
+              <path stroke="#000000" stroke-width="1.7" stroke-linecap="round" d="M11 11.5h5M11 16.5h5M11 6.5h5"></path>
+              <path d="M16 20.853c-.28.595-1.635.893-4.065.893C8.767 21.746 7.961 20 4.921 20c-1.316 0-2.623.284-3.921.853V27h15v-6.147z" fill="#000000"></path>
             </g>
           </g>
         </svg>
