@@ -21,10 +21,15 @@
   
 }
 
+.statistics__title {
+  font-size: 20px;
+  width: 390px;
+  align-items: auto;
+}
+
 .stats__icon {
   width: 50px;
   height: 50px;
-  
   background: #98cfdc;
   color: #ffff;
   display: inline-flex;
@@ -38,7 +43,7 @@
   height: 50px;
   background-color: #53b9ea;
   border-radius: 5px;
-  margin: 2px;
+  margin: 0 2px;
 }
 
 .stats__text-title {

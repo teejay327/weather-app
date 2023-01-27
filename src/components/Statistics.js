@@ -9,7 +9,9 @@ import rain from '../assets/rainy-outline.svg';
 function Statistics (props) {
   return (
     <div className='statistics'>
-
+      <div className='statistics__title'>
+        <h4>Statistics for tomorrow in brief</h4>
+      </div>
 
       <div className='box'>
         <div className='stats__icon'>

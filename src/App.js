@@ -13,7 +13,7 @@ import brisbaneRadar from './assets/Brisbane_radar_1.gif';
 function App() {
   const forecast = {
     location: 'Gold Coast, Queensland',
-    date: new Date(2023, 0, 1),
+    date: new Date(2023, 0, 27),
     concise: 'Mostly sunny, light winds from the North East. Possible evening shower.',
     temperature: '12 to 26 degrees' 
   };
