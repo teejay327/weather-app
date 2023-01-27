@@ -1,4 +1,4 @@
-import Card from './UI/Card';
+//import Card from './UI/Card';
 import './Statistics.css';
 //import rainfall from '../assets/Rainfall.png';
 //import rainfallGauge from '../assets/RainfallGauge.png';
@@ -10,25 +10,30 @@ function Statistics (props) {
   return (
     <div className='statistics'>
 
-    <Card>
+
       <div className='box'>
         <div className='stats__icon'>
           <img src={ rain } alt="Rainfall"/>
           {/* <img src={ rainfall } alt="Rainfall"/> */}
         </div>
         <div className='stats__text'>
-          Chance of rain
+          <div className='stats__text-title'>
+            Chance of rain:
+          </div>
+          <div className='stats__text-numbers'>
+            30%
+          </div>       
         </div>
       </div>
-    </Card>
 
-    <Card>
+
+
       <div className='box'>
         <div className='stats__icon'>
 
         <svg width="40px" height="40px" viewBox="0 0 46 46">
           <g fill="none" fill-rule="evenodd">
-            <circle fill="#53B9EA" cx="23" cy="23" r="23"></circle>
+            <circle fill="#98cfdc" cx="23" cy="23" r="23"></circle>
             <g transform="translate(15 9)">
               <rect stroke="#000000" stroke-width="1.7" x="0.85" y="0.85" width="15.3" height="26.118" rx="1"></rect>
               <path stroke="#000000" stroke-width="1.7" stroke-linecap="round" d="M11 11.5h5M11 16.5h5M11 6.5h5"></path>
@@ -40,23 +45,31 @@ function Statistics (props) {
           {/* <img src={ rainfallGauge } alt="Rainfall Gauge" /> */}
         </div>
         <div className='stats__text'>
-        Amount of rain
+          <div className='stats__text-title'>
+            Amount of rain:
+          </div>
+          <div className='stats__text-numbers'>
+            5-10mm
+          </div> 
         </div>
       </div>
-    </Card>
 
-    <Card>
       <div className='box'>
         <div className='stats__icon'>
           <img src={ uvIndex } alt="UV Index" />
         </div>
         <div className='stats__text'>
-        UV Index
+          <div className='stats__text-title'>
+            UV Index:
+          </div>
+          <div className='stats__text-numbers'>
+            Very high
+          </div>       
         </div>
       </div>
-    </Card>
 
-    <Card>
+
+
       <div className='box'>
         <div className='stats__icon'>
 {/*         <svg width="40px" height="40px" viewBox="0 0 46 46">
@@ -68,10 +81,15 @@ stroke="#FFF" stroke-width="2" stroke-linejoin="round"></path></g>
           <img src={ wind } alt="Wind" />  
         </div>
         <div className='stats__text'>
-          Wind speed
+          <div className='stats__text-title'>
+            Wind speed:
+          </div>
+          <div className='stats__text-numbers'>
+            10-15km/h
+          </div>     
         </div>
       </div>
-     </Card>
+
 
     </div>   
   )

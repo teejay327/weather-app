@@ -1,6 +1,16 @@
 .card {
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 45% 55%;
   grid-template-rows: 4rem;
   width: 100px;
+}
+
+.icon {
+  width: 25px;
+  background-color: blueviolet;
+}
+
+.information {
+  width: 75px;
+  background-color: chartreuse;
 }
