@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Charts from './components/Charts';
 import Locations from './components/Locations';
 import { Route, Routes } from 'react-router-dom';
+import Warnings from './components/Warnings';
 import './components/NavBar.css';
 import Statistics from './components/Statistics';
 import satelliteMap from './assets/Satellite_Australia_1.jpg';
@@ -56,7 +57,7 @@ function App() {
 
         <div className="charts">
           <div className="container__heading">
-            <h3>Images container</h3>
+            <h3>Weather maps and charts</h3>
           </div>      
           <div className="container__charts">
             <div className="radar__charts">
@@ -65,6 +66,11 @@ function App() {
             <div className="satellite__charts">
               <img src={ satelliteMap } alt="Satellite map" />              
             </div>
+          </div>
+          <div>
+            <Warnings >
+              
+            </Warnings>
           </div>
         </div>
         
