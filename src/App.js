@@ -66,12 +66,13 @@ function App() {
             <div className="satellite__charts">
               <img src={ satelliteMap } alt="Satellite map" />              
             </div>
-          </div>
-          <div>
+            <div>
             <Warnings >
               
             </Warnings>
           </div>
+          </div>
+
         </div>
         
       </div>
