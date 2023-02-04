@@ -10,6 +10,7 @@ import './components/NavBar.css';
 import Statistics from './components/Statistics';
 import satelliteMap from './assets/Satellite_Australia_1.jpg';
 import brisbaneRadar from './assets/Brisbane_radar_1.gif';
+import SevenDayForecast from './components/SevenDayForecast';
 
 function App() {
   const forecast = {
@@ -53,6 +54,17 @@ function App() {
             uv = { stats.uvIndex }
             wind = { stats.wind }
           ></Statistics>
+        </div>
+
+        <div className="sevendayforecast">
+          <div className="container__heading">
+            <h3>7 day forecast</h3>
+          </div>
+          <div className="container__sevendayforecast">
+            <SevenDayForecast
+              location = { forecast.location }
+            ></SevenDayForecast>
+          </div>
         </div>
 
         <div className="charts">
