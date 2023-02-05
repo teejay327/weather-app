@@ -58,7 +58,7 @@ function App() {
 
         <div className="sevendayforecast">
           <div className="container__heading">
-            <h3>7 day forecast</h3>
+            <h3>7 day forecast for { forecast.location }</h3>
           </div>
           <div className="container__sevendayforecast">
             <SevenDayForecast
