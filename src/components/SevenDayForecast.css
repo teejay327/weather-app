@@ -1,4 +1,8 @@
-.box__sevendayforecast {
+.sevendayforecast {
+  
+}
+
+.sevendayforecast__box {
   margin: 3px;
   display: grid;
   grid-template-columns: 15% 25% 15% 15% 15% 15%;
@@ -24,7 +28,7 @@
   margin: 0 2px;
 }
 
-.sevendayforecast__text-title {
+.sevendayforecast__date {
   font-size: 0.75em;
   color: #fff;
 }
@@ -38,4 +42,8 @@
 .sevendayforecast__rainfall {
   font-size: 0.9em;
   color: #fff;
+}
+
+.sevendayforecast ul {
+  list-style: none;
 }
