@@ -1,4 +1,6 @@
 import './SevenDayForecast.css';
+import wind from '../assets/Wind.png';
+import rain from '../assets/rainy-outline.svg';
 
 function SevenDayForecast() {
   return (
@@ -6,6 +8,9 @@ function SevenDayForecast() {
       <div className='sevendayforecast__box'>
        <ul>
         <li>
+          <div className='sevendayforecast__icon'>
+            <img src={ rain } alt="Rain"/>
+          </div>
           <p>day1</p>
         </li>
         <li>
