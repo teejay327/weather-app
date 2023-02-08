@@ -1,12 +1,10 @@
 .sevendayforecast {
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .sevendayforecast__box {
-  margin: 3px;
-  display: grid;
-  grid-template-columns: 15% 25% 15% 15% 15% 15%;
-  grid-template-rows: 4rem;
+
 }
 
 .sevendayforecast__icon {
@@ -46,4 +44,16 @@
 
 .sevendayforecast ul {
   list-style: none;
+}
+
+li {
+  margin: 3px;
+  display: grid;
+  grid-template-columns: 15% 25% 15% 15% 15% 15%;
+  grid-template-rows: 4rem;
+  min-width: 30rem;
+}
+
+ul {
+  background-color: blue;
 }

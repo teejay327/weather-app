@@ -56,16 +56,16 @@ function App() {
           ></Statistics>
         </div>
 
-        <div className="sevendayforecast">
-          <div className="container__heading">
-            <h3>7 day forecast for { forecast.location }</h3>
-          </div>
-          <div className="container__sevendayforecast">
-            <SevenDayForecast
-              location = { forecast.location }
-            ></SevenDayForecast>
-          </div>
+
+        <div className="container__heading">
+          <h3>7 day forecast for { forecast.location }</h3>
         </div>
+        <div className="container__sevendayforecast">
+          <SevenDayForecast
+            location = { forecast.location }
+          ></SevenDayForecast>
+        </div>
+
 
         <div className="charts">
           <div className="container__heading">
