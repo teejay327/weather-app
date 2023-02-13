@@ -41,7 +41,8 @@
   background-color: #777;
 }
 
-.navbar-elements {
+.navbar-elements li{
+  color: #fff;
   align-items: stretch;
   margin: 0px;
 }

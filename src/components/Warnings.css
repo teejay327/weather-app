@@ -2,3 +2,9 @@
   background-color: #53b9ea;
   margin: 0.9rem auto;
 }
+
+.warnings__text {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: yellow;
+}
