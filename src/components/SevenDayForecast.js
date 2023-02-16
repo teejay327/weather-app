@@ -51,7 +51,7 @@ function SevenDayForecast() {
             <div className='sevendayforecast__date' >Friday 17 February</div>
             <div className='sevendayforecast__mintemp' >19&#8451;</div>
             <div className='sevendayforecast__maxtemp' >28&#8451;</div>
-            <div className='sevendayforecast__rainchance' >20%</div>
+            <div className='sevendayforecast__rainchance' >5%</div>
             <div className='sevendayforecast__rainamount' >1mm</div>
         </li>
 
