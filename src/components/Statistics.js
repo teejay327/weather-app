@@ -10,7 +10,8 @@ function Statistics (props) {
   return (
     <div className='statistics'>
       <div className='statistics__title'>
-        <h4>Statistics for tomorrow in brief</h4>
+        <h3>Tomorrow</h3>
+        <p>Possible showers</p>
       </div>
 
       <div className='box'>
