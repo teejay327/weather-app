@@ -12,13 +12,19 @@
 
 .summary__location {
   color: yellow;
+  margin: 0 0 10px 0;
 }
 
 .summary__concise {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.summary__temperatures {
+  margin: 10px 0;
   text-align: left;
 }
 
 .summary__temperatures p{
   font-size: 0.6em;
-  text-align: left;
 }
