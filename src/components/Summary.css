@@ -17,3 +17,8 @@
 .summary__concise {
   text-align: left;
 }
+
+.summary__temperatures p{
+  font-size: 0.6em;
+  text-align: left;
+}

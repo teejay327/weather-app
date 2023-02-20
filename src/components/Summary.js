@@ -13,7 +13,8 @@ function Summary(props) {
         { props.concise }
       </div>
       <div className="summary__temperatures">
-        <h3>{ props.temperature }</h3>
+        <p>Currently</p>
+        <h3>{ props.temperature } &#8451;</h3>
       </div>
     </div>)
 } 
