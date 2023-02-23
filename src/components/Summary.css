@@ -19,12 +19,3 @@
   margin: 10px 0;
   text-align: left;
 }
-
-.summary__current-stats {
-  margin: 10px 0;
-  text-align: left;
-}
-
-.summary__current-stats p{
-  font-size: 0.6em;
-}

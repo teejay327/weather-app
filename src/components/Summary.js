@@ -13,7 +13,12 @@ function Summary(props) {
       <div className="summary__concise">
         { props.concise }
       </div>
-      <CurrentStats temperature={  props.temperature }/>
+      <CurrentStats 
+        temperature={  props.temperature }
+        humidity={ props.humidity }
+        rainfall={ props.rainfall }
+        wind={ props.wind }
+      /><CurrentStats/>
     </div>)
 } 
 
