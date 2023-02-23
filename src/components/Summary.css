@@ -20,11 +20,11 @@
   text-align: left;
 }
 
-.summary__temperatures {
+.summary__current-stats {
   margin: 10px 0;
   text-align: left;
 }
 
-.summary__temperatures p{
+.summary__current-stats p{
   font-size: 0.6em;
 }

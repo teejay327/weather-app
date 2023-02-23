@@ -1,4 +1,5 @@
 import Date from './Date';
+import CurrentStats from './CurrentStats';
 import './Summary.css';
 
 function Summary(props) {
@@ -12,10 +13,7 @@ function Summary(props) {
       <div className="summary__concise">
         { props.concise }
       </div>
-      <div className="summary__temperatures">
-        <p>Currently</p>
-        <h3>{ props.temperature } &#8451;</h3>
-      </div>
+      <CurrentStats temperature={  props.temperature }/>
     </div>)
 } 
 
