@@ -27,7 +27,7 @@ function App() {
     chanceRain: '50%',
     rainfall: '<1mm',
     uvIndex: 'Very high',
-    wind: 'NE 20kmh'
+    wind: '15-20kmh'
   };
 
   return (

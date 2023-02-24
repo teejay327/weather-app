@@ -1,6 +1,5 @@
 .current-stats {
   display: flex;
-  flex-direction: row;
   margin: 12px 0;
   font-size: 24px;
   text-align: left;

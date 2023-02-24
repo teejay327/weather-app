@@ -24,7 +24,7 @@ function Statistics (props) {
             Chance of rain:
           </div>
           <div className='stats__text-numbers'>
-            30%
+            <div>{ props.chance }</div>
           </div>       
         </div>
       </div>
@@ -52,7 +52,7 @@ function Statistics (props) {
             Amount of rain:
           </div>
           <div className='stats__text-numbers'>
-            5-10mm
+            <div>{ props.amount }</div>
           </div> 
         </div>
       </div>
@@ -66,7 +66,7 @@ function Statistics (props) {
             UV Index:
           </div>
           <div className='stats__text-numbers'>
-            Very high
+            <div>{ props.uv }</div>
           </div>       
         </div>
       </div>
@@ -88,7 +88,7 @@ stroke="#FFF" stroke-width="2" stroke-linejoin="round"></path></g>
             Wind speed:
           </div>
           <div className='stats__text-numbers'>
-            10-15km/h
+            { props.wind }
           </div>     
         </div>
       </div>
