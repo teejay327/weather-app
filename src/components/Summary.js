@@ -2,8 +2,6 @@ import Date from './Date';
 import CurrentStats from './CurrentStats';
 import './Summary.css';
 
-import Dummy from './Dummy';
-
 function Summary(props) {
   //const date = props.date.toLocaleString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
   return (
@@ -20,13 +18,9 @@ function Summary(props) {
         humidity={ props.humidity }
         rainfall={ props.rainfall }
         wind={ props.wind }
-      /><CurrentStats/>
-
-      <Dummy 
-        wind={ props.wind }
-      />
-
-    </div>)
+      ></CurrentStats>
+    </div>
+    )
 } 
 
 export default Summary;
