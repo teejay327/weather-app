@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Charts from './components/Charts';
 import Locations from './components/Locations';
+import SearchForm from './components/SearchForm';
 import { Route, Routes } from 'react-router-dom';
 import Warnings from './components/Warnings';
 import './components/NavBar.css';
@@ -38,6 +39,7 @@ function App() {
           <Route path="/" element={ <Home /> } />
           <Route path="/charts" element={ <Charts /> } />
           <Route path="/locations" element={ <Locations /> }  />
+          <Route path="/search" element={ <SearchForm location = { forecast.location } /> } />
         </Routes>
       </div>
       <div className="App-container">

@@ -1,7 +1,13 @@
 import React, {useState} from 'react';
 import './SearchForm.css';
 
-function SearchForm() {
+function SearchForm(props) {
+  const [location, setLocation] = useState(props.location);
+  const clickHandler = () => {
+    // Dummy code
+    setLocation('New location');
+    console.log(location);
+  }
   return (
     <form>
       <div className='searchform'>
@@ -9,7 +15,7 @@ function SearchForm() {
         <input type="text" placeholder="Gold Coast" />
       
       <div className='searchform__button'>
-        <button type="submit" className='button'>Submit</button>
+        <button type="submit" className='button' onClick={ clickHandler }>Submit</button>
       </div>
       </div>
     </form>
