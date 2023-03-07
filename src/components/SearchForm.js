@@ -5,7 +5,7 @@ function SearchForm(props) {
   const [location, setLocation] = useState(props.location);
   const clickHandler = () => {
     // Dummy code
-    setLocation('New location');
+    setLocation('location updated');
     console.log(location);
   }
   return (
