@@ -16,7 +16,7 @@ import SevenDayForecast from './components/SevenDayForecast';
 function App() {
   const forecast = {
     location: 'Gold Coast, Queensland',
-    date: new Date(2023, 1, 24),
+    date: new Date(2023, 2, 8),
     concise: 'Mostly sunny, light winds from the North East. Possible evening shower.',
     temperature: '22',
     humidity: '76%',
