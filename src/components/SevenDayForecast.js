@@ -21,7 +21,7 @@ function SevenDayForecast() {
             </svg>
           </div>
 
-            <div className='sevendayforecast__date' >Tuesday 7 March</div>
+            <div className='sevendayforecast__date' >Sunday 12 March</div>
             <div className='sevendayforecast__mintemp' >21&#8451;</div>
             <div className='sevendayforecast__maxtemp' >32&#8451;</div>
             <div className='sevendayforecast__rainchance' >30%</div>
@@ -40,7 +40,7 @@ function SevenDayForecast() {
           </svg>
 
           </div>
-            <div className='sevendayforecast__date' >Wednesday 8 March</div>
+            <div className='sevendayforecast__date' >Monday 13 March</div>
             <div className='sevendayforecast__mintemp' >20&#8451;</div>
             <div className='sevendayforecast__maxtemp' >31&#8451;</div>
             <div className='sevendayforecast__rainchance' >80%</div>
@@ -51,7 +51,7 @@ function SevenDayForecast() {
           <div>
             <img src={cloudy} alt='cloudy'/>
           </div>
-            <div className='sevendayforecast__date' >Thursday 9 March</div>
+            <div className='sevendayforecast__date' >Tuesday 14 March</div>
             <div className='sevendayforecast__mintemp' >22&#8451;</div>
             <div className='sevendayforecast__maxtemp' >30&#8451;</div>
             <div className='sevendayforecast__rainchance' >30%</div>
@@ -68,7 +68,7 @@ function SevenDayForecast() {
             </g>
           </svg>
           </div>
-            <div className='sevendayforecast__date' >Friday 10 March</div>
+            <div className='sevendayforecast__date' >Wednesday 15 March</div>
             <div className='sevendayforecast__mintemp' >19&#8451;</div>
             <div className='sevendayforecast__maxtemp' >28&#8451;</div>
             <div className='sevendayforecast__rainchance' >5%</div>
@@ -86,7 +86,7 @@ function SevenDayForecast() {
               </g>
             </svg>
           </div>
-          <div className='sevendayforecast__date' >Saturday 11 March</div>
+          <div className='sevendayforecast__date' >Thursday 16 March</div>
             <div className='sevendayforecast__mintemp' >21&#8451;</div>
             <div className='sevendayforecast__maxtemp' >30&#8451;</div>
             <div className='sevendayforecast__rainchance' >10%</div>
@@ -103,7 +103,7 @@ function SevenDayForecast() {
               </g>
             </svg>
           </div>
-          <div className='sevendayforecast__date' >Sunday 12 March</div>
+          <div className='sevendayforecast__date' >Friday 17 March</div>
             <div className='sevendayforecast__mintemp' >22&#8451;</div>
             <div className='sevendayforecast__maxtemp' >28&#8451;</div>
             <div className='sevendayforecast__rainchance' >70%</div>
@@ -120,7 +120,7 @@ function SevenDayForecast() {
             </g>
           </svg>
           </div>
-            <div className='sevendayforecast__date' >Monday 13 March</div>
+            <div className='sevendayforecast__date' >Saturday 18 March</div>
             <div className='sevendayforecast__mintemp' >21&#8451;</div>
             <div className='sevendayforecast__maxtemp' >27&#8451;</div>
             <div className='sevendayforecast__rainchance' >5%</div>
