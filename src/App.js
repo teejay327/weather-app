@@ -98,6 +98,22 @@ function App() {
       </div>
     </div>
   );
+
+  <footer>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">WeatherLink</a>
+        </li>
+        <li>
+          <a href="#">Social media</a>
+        </li>
+        <li>
+          <a href="#">Copyright@2023WeatherLink v1.0</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
 }
 
 export default App;
