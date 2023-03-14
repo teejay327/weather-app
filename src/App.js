@@ -7,6 +7,7 @@ import Locations from './components/Locations';
 import SearchForm from './components/SearchForm';
 import { Route, Routes } from 'react-router-dom';
 import Warnings from './components/Warnings';
+import Footer from './components/UI/Footer';
 import './components/NavBar.css';
 import Statistics from './components/Statistics';
 import satelliteMap from './assets/Satellite_Australia_1.jpg';
@@ -96,24 +97,10 @@ function App() {
         </div>
         
       </div>
+      <Footer />
     </div>
   );
 
-  <footer>
-    <nav>
-      <ul>
-        <li>
-          <a href="#">WeatherLink</a>
-        </li>
-        <li>
-          <a href="#">Social media</a>
-        </li>
-        <li>
-          <a href="#">Copyright@2023WeatherLink v1.0</a>
-        </li>
-      </ul>
-    </nav>
-  </footer>
 }
 
 export default App;

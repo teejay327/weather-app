@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  color: #fff;
+  background-color: #065e81;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  height: 5rem;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+}
