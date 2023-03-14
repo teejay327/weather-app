@@ -12,3 +12,8 @@
   list-style: none;
   display: flex;
 }
+
+footer a {
+  color:#fff;
+  text-decoration: none;
+}

@@ -1,4 +1,7 @@
 import './Footer.css';
+import facebook from '../../images/logos/facebook.png';
+import instagram from '../../images/logos/instagram.png';
+import twitter from '../../images/logos/twitter.png';
 
 function Footer() {
   return (
@@ -6,15 +9,22 @@ function Footer() {
     <nav>
       <ul>
         <li>
-          <a href="#">WeatherLink
-          </a>
+          <h3>WeatherLink</h3>
         </li>
         <li>
-          <a class="socialmedia" href="#">Social media</a>
-          <img src="/images/logos/twitter.png" alt="Twitter logo" width="30" height="30"></img>
+          <a class="socialmedia" href="https://www.facebook.com/login.php">Facebook</a>
+          <img src={ facebook } alt="Facebook logo" width="30" height="30"></img>
         </li>
         <li>
-          <a href="#">Copyright@2023WeatherLink v1.0</a>
+          <a class="socialmedia" href="https://www.instagram.com/accounts/login/">Instagram</a>
+          <img src={ instagram } alt="Instagram logo" width="30" height="30"></img>
+        </li>
+        <li>
+          <a class="socialmedia" href="https://twitter.com/login">Twitter</a>
+          <img src={ twitter } alt="Twitter logo" width="30" height="30"></img>
+        </li>
+        <li>
+          <div>Copyright@2023WeatherLink v1.0</div>
         </li>
       </ul>
     </nav>
