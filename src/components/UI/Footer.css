@@ -2,20 +2,30 @@
   display: flex;
   color: #fff;
   background-color: #065e81;
-  justify-content: space-between;
+
   align-items: center;
   gap: 2rem;
   height: 5rem;
+  
 }
 
 .footer ul {
   list-style: none;
   display: flex;
   align-items: center;
+  min-width: 35rem;
+  justify-content: space-between;
 }
 
-footer a {
-  color:#fff;
-  text-decoration: none;
+.footer-socialmedia {
+  display: flex;
+  flex-direction: row; 
 }
 
+.footer li {
+  margin: 3px;
+}
+
+.footer-notes {
+ 
+}

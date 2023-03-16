@@ -16,16 +16,19 @@ function Footer() {
 
         <div className="footer-socialmedia">
           <li>
-            <a className="socialmedia" href="https://www.facebook.com/login.php">Facebook</a>
-            <img src={ facebook } alt="Facebook logo" width="30" height="30"></img>
+            <a className="socialmedia" href="https://www.facebook.com/login.php">
+              <img src={ facebook } alt="Facebook logo" width="30" height="30"></img>
+            </a>
           </li>
           <li>
-            <a className="socialmedia" href="https://www.instagram.com/accounts/login/">Instagram</a>
-            <img src={ instagram } alt="Instagram logo" width="30" height="30"></img>
+            <a className="socialmedia" href="https://www.instagram.com/accounts/login/">
+              <img src={ instagram } alt="Instagram logo" width="30" height="30"></img>
+            </a>
           </li>
           <li>
-            <a className="socialmedia" href="https://twitter.com/login">Twitter</a>
-            <img src={ twitter } alt="Twitter logo" width="30" height="30"></img>
+            <a className="socialmedia" href="https://twitter.com/login">
+              <img src={ twitter } alt="Twitter logo" width="30" height="30"></img>
+            </a>
           </li>
         </div>
 
