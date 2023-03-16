@@ -11,9 +11,11 @@
 .footer ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 footer a {
   color:#fff;
   text-decoration: none;
 }
+
