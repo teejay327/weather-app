@@ -2,7 +2,6 @@
   display: flex;
   color: #fff;
   background-color: #065e81;
-
   align-items: center;
   gap: 2rem;
   height: 5rem;
@@ -26,6 +25,6 @@
   margin: 3px;
 }
 
-.footer-notes {
- 
+.footer-nav {
+  justify-content: space-between;
 }

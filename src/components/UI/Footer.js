@@ -6,7 +6,7 @@ import twitter from '../../images/logos/twitter.png';
 function Footer() {
   return (
     <footer className="footer">
-    <nav>
+    <nav className="footer-nav">
       <ul>
         <div className="footer-logo">
         <li>
