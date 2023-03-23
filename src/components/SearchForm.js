@@ -3,17 +3,29 @@ import './SearchForm.css';
 
 function SearchForm(props) {
   const [newLocation, setLocation] = useState(props.location);
-  const locationClickHandler = (event) => {
+  const locationChangeHandler = (event) => {
     setLocation(event.target.value);
-    console.log(newLocation);
-  }
+    console.log(event.target.value);
+  };
+
+  const submitHandler = (event) => {
+    event.preventDefault();
+
+    const locationData = {
+      enteredLocation: newLocation
+    };
+
+    console.log(locationData);
+    setLocation('');
+  };
+
   return (
-    <form>
+    <form onSubmit={ submitHandler }>
       <div className='searchform'>
         <label>Search for any location</label>
-        <input type="text" placeholder="Gold Coast" value={ newLocation }/>
+        <input type="text" placeholder="Gold Coast" onChange={ locationChangeHandler } value={ newLocation }/>
       <div className='searchform__button'>
-        <button type="submit" className='button' onClick={ locationClickHandler }>Submit</button>
+        <button type="submit" className='button'>Submit</button>
       </div>
       </div>
     </form>
