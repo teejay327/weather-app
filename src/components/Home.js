@@ -5,7 +5,7 @@ function Home() {
     <div>
       <h1>Home</h1>
       <div className='Search-form'>
-          <SearchForm/>
+          <SearchForm onSaveLocation />
         </div> 
     </div>
 
