@@ -32,12 +32,17 @@ function App() {
     wind: '15-20kmh'
   };
 
+  const changeLocationHandler = location => {
+    console.log('in App.js');
+    console.log(location);
+  }
+
   return (
     <div className="App">
       <NavBar />
       <div className="container">
         <Routes>
-          <Route path="/" element={ <Home /> } />
+          <Route path="/" element={ <Home onChangeLocation = { changeLocationHandler }/> } />
           <Route path="/charts" element={ <Charts /> } />
           <Route path="/locations" element={ <Locations /> }  />
           <Route path="/search" element={ <SearchForm location = { forecast.location } /> } />

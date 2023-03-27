@@ -15,7 +15,7 @@ function SearchForm(props) {
       enteredLocation: newLocation
     };
 
-    console.log(locationData);
+    props.onSaveLocation(locationData);
     setLocation('');
   };
 
