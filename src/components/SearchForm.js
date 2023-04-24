@@ -22,7 +22,7 @@ function SearchForm(props) {
   return (
     <form onSubmit={ submitHandler }>
       <div className='searchform'>
-        <label>Search for any location</label>
+        <label>Search for a location in Australia</label>
         <input type="text" placeholder="Gold Coast" onChange={ locationChangeHandler } value={ newLocation }/>
       <div className='searchform__button'>
         <button type="submit" className='button'>Submit</button>
