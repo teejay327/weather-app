@@ -4,7 +4,7 @@ import './Charts.css';
 function Charts() {
   return (
     <div>
-      
+      <p>Satellite Chart</p>
     </div>
   )
   
