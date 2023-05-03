@@ -5,6 +5,7 @@ function Charts() {
   return (
     <div>
       <p>Satellite Chart</p>
+      <p>Synoptic Chart</p>
     </div>
   )
   
