@@ -17,8 +17,8 @@ function SevenDayForecast() {
           </div>
 
             <div className='sevendayforecast__date' >Tuesday 20 June</div>
-            <div className='sevendayforecast__mintemp' >19&#8451;</div>
-            <div className='sevendayforecast__maxtemp' >28&#8451;</div>
+            <div className='sevendayforecast__mintemp' >12&#8451;</div>
+            <div className='sevendayforecast__maxtemp' >22&#8451;</div>
             <div className='sevendayforecast__rainchance' >30%</div>
             <div className='sevendayforecast__rainamount' >1-5mm</div>
         </li>
@@ -36,8 +36,8 @@ function SevenDayForecast() {
 
           </div>
             <div className='sevendayforecast__date' >Wednesday 28 June</div>
-            <div className='sevendayforecast__mintemp' >20&#8451;</div>
-            <div className='sevendayforecast__maxtemp' >29&#8451;</div>
+            <div className='sevendayforecast__mintemp' >12&#8451;</div>
+            <div className='sevendayforecast__maxtemp' >23&#8451;</div>
             <div className='sevendayforecast__rainchance' >80%</div>
             <div className='sevendayforecast__rainamount' >5-10mm</div>
         </li>
@@ -54,8 +54,8 @@ function SevenDayForecast() {
           </svg>
           </div>
             <div className='sevendayforecast__date' >Thursday 29 June</div>
-            <div className='sevendayforecast__mintemp' >20&#8451;</div>
-            <div className='sevendayforecast__maxtemp' >27&#8451;</div>
+            <div className='sevendayforecast__mintemp' >13&#8451;</div>
+            <div className='sevendayforecast__maxtemp' >22&#8451;</div>
             <div className='sevendayforecast__rainchance' >30%</div>
             <div className='sevendayforecast__rainamount' >1-5mm</div>
         </li>
@@ -71,8 +71,8 @@ function SevenDayForecast() {
           </svg>
           </div>
             <div className='sevendayforecast__date' >Friday 30 June</div>
-            <div className='sevendayforecast__mintemp' >19&#8451;</div>
-            <div className='sevendayforecast__maxtemp' >25&#8451;</div>
+            <div className='sevendayforecast__mintemp' >11&#8451;</div>
+            <div className='sevendayforecast__maxtemp' >22&#8451;</div>
             <div className='sevendayforecast__rainchance' >5%</div>
             <div className='sevendayforecast__rainamount' >1mm</div>
         </li>
@@ -89,8 +89,8 @@ function SevenDayForecast() {
             </svg>
           </div>
           <div className='sevendayforecast__date' >Saturday 1 July</div>
-            <div className='sevendayforecast__mintemp' >21&#8451;</div>
-            <div className='sevendayforecast__maxtemp' >27&#8451;</div>
+            <div className='sevendayforecast__mintemp' >12&#8451;</div>
+            <div className='sevendayforecast__maxtemp' >20&#8451;</div>
             <div className='sevendayforecast__rainchance' >10%</div>
             <div className='sevendayforecast__rainamount' >1mm</div>
         </li>
@@ -106,8 +106,8 @@ function SevenDayForecast() {
             </svg>
           </div>
           <div className='sevendayforecast__date' >Sunday 2 July</div>
-            <div className='sevendayforecast__mintemp' >19&#8451;</div>
-            <div className='sevendayforecast__maxtemp' >26&#8451;</div>
+            <div className='sevendayforecast__mintemp' >10&#8451;</div>
+            <div className='sevendayforecast__maxtemp' >22&#8451;</div>
             <div className='sevendayforecast__rainchance' >70%</div>
             <div className='sevendayforecast__rainamount' >1-5mm</div>
         </li>
@@ -123,8 +123,8 @@ function SevenDayForecast() {
           </svg>
           </div>
             <div className='sevendayforecast__date' >Monday 3 July</div>
-            <div className='sevendayforecast__mintemp' >21&#8451;</div>
-            <div className='sevendayforecast__maxtemp' >27&#8451;</div>
+            <div className='sevendayforecast__mintemp' >12&#8451;</div>
+            <div className='sevendayforecast__maxtemp' >23&#8451;</div>
             <div className='sevendayforecast__rainchance' >5%</div>
             <div className='sevendayforecast__rainamount' >1mm</div>
         </li>
