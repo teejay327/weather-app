@@ -73,7 +73,7 @@ function SevenDayForecast() {
             <div className='sevendayforecast__date' >Friday 11 August</div>
             <div className='sevendayforecast__mintemp' >11&#8451;</div>
             <div className='sevendayforecast__maxtemp' >22&#8451;</div>
-            <div className='sevendayforecast__rainchance' >5%</div>
+            <div className='sevendayforecast__rainchance' >10%</div>
             <div className='sevendayforecast__rainamount' >1mm</div>
         </li>
 
@@ -89,7 +89,7 @@ function SevenDayForecast() {
             </svg>
           </div>
           <div className='sevendayforecast__date' >Saturday 12 August</div>
-            <div className='sevendayforecast__mintemp' >12&#8451;</div>
+            <div className='sevendayforecast__mintemp' >11&#8451;</div>
             <div className='sevendayforecast__maxtemp' >20&#8451;</div>
             <div className='sevendayforecast__rainchance' >10%</div>
             <div className='sevendayforecast__rainamount' >1mm</div>
@@ -123,7 +123,7 @@ function SevenDayForecast() {
           </svg>
           </div>
             <div className='sevendayforecast__date' >Monday 14 August</div>
-            <div className='sevendayforecast__mintemp' >14&#8451;</div>
+            <div className='sevendayforecast__mintemp' >12&#8451;</div>
             <div className='sevendayforecast__maxtemp' >22&#8451;</div>
             <div className='sevendayforecast__rainchance' >5%</div>
             <div className='sevendayforecast__rainamount' >1mm</div>
