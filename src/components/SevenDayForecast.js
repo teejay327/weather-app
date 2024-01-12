@@ -122,7 +122,7 @@ function SevenDayForecast() {
             </g>
           </svg>
           </div>
-            <div className='sevendayforecast__date' >Monday 5 December</div>
+            <div className='sevendayforecast__date' >Monday 4 December</div>
             <div className='sevendayforecast__mintemp' >15&#8451;</div>
             <div className='sevendayforecast__maxtemp' >22&#8451;</div>
             <div className='sevendayforecast__rainchance' >5%</div>
