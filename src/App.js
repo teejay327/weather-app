@@ -19,7 +19,7 @@ function App() {
     location: 'Gold Coast, Queensland',
     date: new Date(2023, 3, 28),
     concise: 'Mostly sunny, light winds from the North East. Possible evening shower.',
-    temperature: '23',
+    temperature: '24',
     humidity: '76%',
     rainfall: '1mm',
     wind: 'SSE 17km/h'
